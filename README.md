@@ -44,11 +44,12 @@ If you run a old version of Cordova for iOS / Mac and you need your files in `/R
 
      $ cordova-icon-and-splash --xcode-old
 
-For good results, your file should be:
+For good results, your Icon file should be:
 
 - square
-- for Android and iOS, at least 192\*192px (512\*512px recommended to be future-proof)
-- for Windows, at least 1240\*1240px
+- 1024\*1024
+
+And your Splash file can be a little bigger.
 
 #### Notes:
 
