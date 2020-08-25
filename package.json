@@ -1,7 +1,7 @@
 {
   "name": "cordova-icon-and-splash",
-  "version": "0.9.2",
-  "description": "Automatic icon resizing for Cordova",
+  "version": "0.0.1",
+  "description": "Automatic icon and & splash page resizing for Cordova",
   "main": "index.js",
   "preferGlobal": true,
   "directories": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/AlexDisler/cordova-icon.git"
+    "url": "git@github.com:krisrandall/cordova-icon-and-splash.git"
   },
   "keywords": [
     "cordova",
@@ -22,9 +22,9 @@
   "author": "Alex Disler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlexDisler/cordova-icon/issues"
+    "url": "https://github.com/krisrandall/cordova-icon-and-splash/issues"
   },
-  "homepage": "https://github.com/AlexDisler/cordova-icon",
+  "homepage": "https://github.com/krisrandall/cordova-icon-and-splash",
   "dependencies": {
     "colors": "^0.6.2",
     "fs-extra": "^0.30.0",

@@ -1,6 +1,6 @@
 # cordova-icon-and-splash
 
-Addapted from '[cordov-icon](https://www.npmjs.com/package/cordova-splash)' but updated to do both icon and splash and also up to date with 2020 phones.
+Addapted from '[cordov-icon](https://www.npmjs.com/package/cordova-splash)' by AlexDisler but updated to do both icon and splash and also up to date with 2020 phones.
 
 ----
 
