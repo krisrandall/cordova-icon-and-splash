@@ -1,12 +1,15 @@
 # cordova-icon-and-splash
 
-Addapted from '[cordov-icon](https://www.npmjs.com/package/cordova-splash)' by AlexDisler but updated to do both icon and splash and also up to date with 2020 phones.
+Automatic icon and splash page creation for Cordova apps.
+
+Create an `icon.png` and `splash.png` in the root folder of your Cordova project and use cordova-icon-and-splash to automatically create all the needed image assets for your iOS and Android project.
 
 ----
 
 <img src="cordova-icon-resize.png"/>
 
-Automatic icon resizing for Cordova. Create an icon in the root folder of your Cordova project and use cordova-icon to automatically resize and copy it for all the platforms your project supports (currenty works with iOS, Android, Windows 10 and OSX).
+Adapted from '[cordov-icon](https://www.npmjs.com/package/cordova-splash)' by AlexDisler but updated to do both icon and splash and also up to date with 2020 phones.
+
 
 ### Installation
 

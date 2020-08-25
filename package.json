@@ -1,6 +1,6 @@
 {
   "name": "cordova-icon-and-splash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatic icon and & splash page resizing for Cordova",
   "main": "index.js",
   "preferGlobal": true,
