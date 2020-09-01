@@ -53,10 +53,30 @@ var getPlatforms = function (projectName) {
       { name : 'icon-small@3x.png', size : 87  },
       { name : 'icon.png',          size : 57  },
       { name : 'icon@2x.png',       size : 114 },
-      { name : 'icon-83.5@2x.png',  size : 167 }
+      { name : 'icon-83.5@2x.png',  size : 167 },
+      // New ones I've noticed as at 1 Sept 2020, up to Cordova v9.0.0, Xcode 11
+      { name : 'icon-24@2x.png',  size : 48 },
+      { name : 'icon-27.5@2x.png',  size : 55 },
+      { name : 'icon-29.png',  size : 29 },
+      { name : 'icon-29@2x.png',  size : 58 },
+      { name : 'icon-29@3x.png',  size : 87 },
+      { name : 'icon-44@2x.png',  size : 88 },
+      { name : 'icon-86@2x.png',  size : 172 },
+      { name : 'icon-98@2x.png',  size : 196 }
     ],
     splash : [
-      // TODO !!
+      { name : '../LaunchImage.launchimage/Default-568h@2x~iphone.png', size : 640 , height : 1136 },
+      { name : '../LaunchImage.launchimage/Default-667h.png', size : 750 , height : 1334 },
+      { name : '../LaunchImage.launchimage/Default-736h.png', size : 1242 , height : 2208 },
+      { name : '../LaunchImage.launchimage/Default-2436h.png', size : 1125 , height : 2436 },
+      { name : '../LaunchImage.launchimage/Default-Landscape-736h.png', size : 2208 , height : 1242 },
+      { name : '../LaunchImage.launchimage/Default-Landscape-2436h.png', size : 2436 , height : 1125 },
+      { name : '../LaunchImage.launchimage/Default-Landscape@2x~ipad.png', size : 2048 , height : 1536 },
+      { name : '../LaunchImage.launchimage/Default-Landscape~ipad.png', size : 1024 , height : 768 },
+      { name : '../LaunchImage.launchimage/Default-Portrait@2x~ipad.png', size : 1536 , height : 2048 },
+      { name : '../LaunchImage.launchimage/Default-Portrait~ipad.png', size : 768 , height : 1024 },
+      { name : '../LaunchImage.launchimage/Default@2x~iphone.png', size : 640 , height : 960 },
+      { name : '../LaunchImage.launchimage/Default~iphone.png', size : 320 , height : 480 }
     ]
   });
   platforms.push({
@@ -77,7 +97,7 @@ var getPlatforms = function (projectName) {
       { name : 'mipmap-xhdpi/icon.png', size : 96 },
       { name : 'mipmap-xxhdpi/icon.png', size : 144 },
       { name : 'mipmap-xxxhdpi/icon.png', size : 192 },
-      // New ones I've noticed as at 25 Aug 2020, Cordova v9.0.0, Android v26
+      // New ones I've noticed as at 1 Sept 2020, up to Cordova v9.0.0, Android v26
       { name : 'mipmap-hdpi-v26/ic_launcher_foreground.png',  size : 72 },
       { name : 'mipmap-ldpi-v26/ic_launcher_foreground.png',  size : 36 },
       { name : 'mipmap-mdpi-v26/ic_launcher_foreground.png',  size : 48 },
