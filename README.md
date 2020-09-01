@@ -2,13 +2,19 @@
 
 Automatic icon and splash page creation for Cordova apps.
 
-Create an `icon.png` and `splash.png` in the root folder of your Cordova project and use cordova-icon-and-splash to automatically create all the needed image assets for your iOS and Android project.
+Create an **`icon.png`** and **`splash.png`** in the root folder of your Cordova project and use cordova-icon-and-splash to automatically create all the needed image assets for your iOS and Android project.
 
 ----
 
-<img src="cordova-icon-resize.png"/>
+Adapted from '[cordov-icon](https://www.npmjs.com/package/cordova-splash)' by AlexDisler but updated to do _both icon and splash_ and also **up to date with 2020 phones**.
 
-Adapted from '[cordov-icon](https://www.npmjs.com/package/cordova-splash)' by AlexDisler but updated to do both icon and splash and also up to date with 2020 phones.
+by [CoCreations
+<img src="https://cocreations.com.au/images/cocreations-logo.png">](https://cocreations.com.au/)
+
+
+-----
+
+
 
 
 ### Installation
